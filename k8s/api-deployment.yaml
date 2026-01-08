@@ -15,8 +15,8 @@ spec:
         app: coordinates-api
     spec:
       containers:
-      - name: api
-        image: yehudafreiman/coordinates-api:v1
+      - name: coordinates-api
+        image: yehudafreiman/coordinates_api:v1
         ports:
         - containerPort: 8000
           name: coordinates-api
